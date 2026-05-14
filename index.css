@@ -1,0 +1,69 @@
+body{
+    background:black;
+    color:lime;
+    font-family:Courier New;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:650px;
+    background:#111;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 0 30px lime;
+    text-align:center;
+}
+
+h1{
+    color:red;
+    font-size:50px;
+    text-shadow:0 0 15px red;
+}
+
+textarea{
+    width:100%;
+    height:250px;
+    background:black;
+    color:lime;
+    border:2px solid lime;
+    padding:15px;
+    font-size:24px;
+    margin-top:20px;
+    box-sizing:border-box;
+}
+
+button{
+    margin-top:30px;
+    padding:15px 35px;
+    background:red;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:24px;
+    cursor:pointer;
+}
+
+.loading{
+    display:none;
+    margin-top:20px;
+    color:yellow;
+    font-size:24px;
+}
+
+#result{
+    margin-top:20px;
+    font-size:35px;
+}
+
+#percentage{
+    color:cyan;
+    font-size:28px;
+}
+
+#detectedWords{
+    color:orange;
+    font-size:22px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Email Spam Detection</title>
+
+    <link rel="stylesheet"
+    href="index.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📧 Email Spam Detector</h1>
+
+    <textarea
+    id="message"
+    placeholder="Paste email message here...">
+    </textarea>
+
+    <button onclick="checkSpam()">
+        Scan Email
+    </button>
+
+    <div class="loading"
+    id="loading">
+
+        Scanning Email...
+
+    </div>
+
+    <h2 id="result"></h2>
+
+    <h3 id="percentage"></h3>
+
+    <p id="detectedWords"></p>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
